@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>form</title>
+</head>
+<body>
+    <section>
+        <div class="form">
+            <div class="value">
+                <form>
+                    <h2>Login</h2>
+                    <div class="input">
+                        <span for="name"><b>Telegram Username(No Phone Number!): </b></span>
+                    <input type="text" placeholder="Enter your TG username" id="tgname" name="tgname" maxlength="25" minlength="2" required>
+                    </div>
+                    <div class="input">
+                        <span for="name"><b>Store Name: </b></span>
+                        <input type="text" placeholder="Enter your store name" id="sname" name="sname" maxlength="25" minlength="2" required>
+                    </div>
+                    <div class="input">
+                        <span><b>Select Country:</b></span>
+
+                        <select id="country" name="country">
+                            
+                            <option value="US">US</option>
+                            <option value="CA">CA</option>
+                            <option value="EU">EU</option>
+                            <option value="UK">UK</option>
+                        </select>
+                    </div>
+                    <div class="input">
+                        <span for=""><b>Date Placed: </b></span>
+                        <input type="date" placeholder="" id="date" name="date" required>
+                    </div>
+                    <div class="input">
+                        <span for=""><b>Full Billing Address: </b></span>
+                        <input type="text" placeholder="Enter your first name" id="billadd" name="billadd"  required>
+                    </div>
+                    <div class="input">
+                        <span for=""><b>Full Shipping Address(If different then billing): </b></span>
+                        <input type="text" placeholder="Enter Shipping Address" id="shipadd" name="shipadd"  required>
+                    </div>
+                    <div class="input">
+                        <span for=""><b>Phone Number: </b></span>
+                        <input type="phone" placeholder="Enter phone number" id="phone" name="phone"  required>
+                    </div>
+                    <div class="input">
+                        <span for=""><b>Email + Pass(Email only for Guest+Checkout): </b></span>
+                        <input type="email" placeholder="Enter email" id="email" name="email"  required>
+                    </div>
+                    <div class="input">
+                        <span for=""><b>Order #: </b></span>
+                        <input type="text" placeholder="Enter Order id" id="oid" name="oid"  required>
+                    </div>
+                    <div class="input">
+                        <span for=""><b>Signature: </b></span>
+                        <input type="file"  id="sign" name="sign"  required>
+                    </div>
+                    <div class="input">
+                        <span for=""><b>Order Total(with shipping and taxes): </b></span>
+                        <input type="text" placeholder="Enter your order total" id="ototal" name="ototal"  required>
+                    </div>
+                    <div class="input">
+                        <span for=""><b>Nulled Username(MUST HAVE!!!): </b></span>
+                        <input type="text" placeholder="Enter Username" id="uname" name="uname"  required>
+                    </div>
+                    <div class="input">
+                        <span for=""><b>Do you accept the /TOS in the group? </b></span>
+                        <input type="checkbox" checked="unchecked" name="yes" style="margin-bottom:15px"> Yes
+                    </div>
+                    <div class="input">
+                        <span for=""><b>Anything else: </b></span>
+                        <input type="text" placeholder="Enter " id="text" name="text"  required>
+                    </div>
+                </form>
+                <button type="submit"  name="submit" >Submit</button> 
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>
